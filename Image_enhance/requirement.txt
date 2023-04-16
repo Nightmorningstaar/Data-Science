@@ -1,0 +1,27 @@
+I Create the virtual environment inside the Image_enhance folder than install
+all dependencies, if you want to do the same that is ok otherwise that's fine!! 
+
+#Structure
+-Image_enhance
+  --ESRGAN
+  --myenv
+  --requirement.txt
+
+# 1. Clone Repo
+git clone https://github.com/xinntao/ESRGAN
+ 
+# 2. Download Model
+Get model https://drive.google.com/drive/u/0/folders/17VYV_SoZZesU6mbxz2dMAIccSSlqLecY
+Download the model name called RRDB_ESRGAN_x4.pth 
+
+# 3. Install Dependencies
+First go to PyTorch.org and install Dependencies over there and according to the requirement of your pc copy the
+commad over there and paste it over cmd.
+Install deps pip install opencv-python glob2
+
+# 4. Grab Low Res Image and Run Script
+Place low res image in LR folder
+Run python test.py
+
+# In case of using the GUI 
+Run the test2.py
