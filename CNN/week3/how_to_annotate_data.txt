@@ -1,6 +1,0 @@
-For to annotate the data use Labelimg
-pip3 install labelImg
-labelImg
-labelImg [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
-
-use this video to see how to use labelImg https://www.youtube.com/watch?v=iy34dSwfEsY
